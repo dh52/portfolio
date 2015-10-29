@@ -1,0 +1,84 @@
+html {
+  background-color: navy;
+  margin: auto;
+  width: 75%;
+  border: 5px solid orange;
+  padding: 10px;
+}
+header {
+  border-top-style: solid;
+  border-right: dashed;
+  border-left: dashed;
+  border-bottom: dotted;
+  border-color: cadetblue;
+  border-width: 10px
+}
+body {
+  background-width: 80%;
+  background-color: #e1ff00
+}
+p {
+  color: aqua;
+  text-align: center
+}
+h1 {
+  font-size: 3rem;
+  color: #e1ff00;
+  text-align: center;
+  text-shadow: 2px 2px 6px purple;
+}
+h2 {
+  font-family: serif;
+  font-size: 2rem; 
+  color: cadetblue;
+  text-align:center
+}
+h3 {
+  font-family: fantasy;
+  font-size: 1rem;
+  color: brown;
+  text-align: center;
+}
+p::first-letter {
+    color: peru;
+    font-size: 3rem;
+}
+img {
+  height: 50px;
+  width: auto
+}
+footer {
+    border-radius: 35px 110px 50px;
+    background: lightgray;
+    padding: 20px; 
+    width: 732px;
+    height: 200px; 
+}
+#ul1 {
+  position: relative;
+  border-radius: 10px;
+  border: 1em solid pink;
+  padding: 3em; 
+  width: 4em;
+  height: 4em;
+}
+#p1 {
+  font-stretch: expanded;
+  font-size: 1.25rem;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+}
+#grad {
+    height: 200px;
+    background: -webkit-linear-gradient(#f50, #b30000);
+    background: -o-linear-gradient(#f50, #b30000); 
+    background: -moz-linear-gradient(#f50, #b30000);
+    background: linear-gradient(#f50, #b30000); /
+}
+
+
+    
+
+  
