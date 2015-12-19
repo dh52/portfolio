@@ -108,6 +108,20 @@ footer {
   height: 2rem; 
   margin: 1rem;
 }
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+a:active {
+    color: whitesmoke;
+}
+  
 
 
 
